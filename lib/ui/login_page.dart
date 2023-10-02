@@ -18,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login'),
+        title: const Text('Login Bimo'),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -73,7 +73,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _buttonLogin() {
     return ElevatedButton(
-      child: const Text("Login"),
+      child: const Text("Login Bimo"),
       onPressed: () {
         var validate = _formKey.currentState!.validate();
       },
